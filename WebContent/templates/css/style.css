@@ -1,0 +1,22 @@
+img{
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+}
+p{
+  text-align: justify;
+}
+.title{
+  border: 1px solid red;
+}
+
+h3 a:hover{
+  text-decoration: none;
+  color: green;
+}
+
+h1{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: blue;
+}

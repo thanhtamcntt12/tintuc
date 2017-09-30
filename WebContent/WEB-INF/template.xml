@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+       
+<tiles-definitions>
+  
+  <!-- Admin -->
+  <definition name="admin.news.add" extends="admin.template">
+    <put-attribute name="content" value="/WEB-INF/jsp/admin/news/add.jsp" />
+  </definition>
+  
+  <definition name="admin.news.edit" extends="admin.template">
+    <put-attribute name="content" value="/WEB-INF/jsp/admin/news/edit.jsp" />
+  </definition>
+  <definition name="admin.news.list" extends="admin.template">
+    <put-attribute name="content" value="/WEB-INF/jsp/admin/news/list.jsp" />
+  </definition>
+  <!--  -->
+  
+  <!-- Public -->
+  <definition name="public.index" extends="public.template">
+    <put-attribute name="content" value="/WEB-INF/jsp/public/index.jsp" />
+  </definition>
+  
+   <definition name="public.detail" extends="public.template">
+    <put-attribute name="content" value="/WEB-INF/jsp/public/detail.jsp" />
+  </definition>
+  
+  <!--  -->
+</tiles-definitions>
